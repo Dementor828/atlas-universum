@@ -162,8 +162,7 @@ p + p { margin-top: 14px; }
   inset: 0 0 auto 0;
   z-index: 50;
   padding: 18px 0;
-  background: rgba(22, 32, 71, .97);
-  backdrop-filter: blur(8px);
+  background: var(--navy-dark);
   transition: padding .3s, box-shadow .3s;
 }
 .header.is-scrolled {
